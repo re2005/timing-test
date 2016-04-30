@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Timming test</title>
+</head>
+
+<body>
+    <h1>Welcome to the timing test</h1>
+    <div id="log"></div>
+    <script src="underscore-min.js"></script>
+    <script src="app.js"></script>
+    <script>
+    _public.init([{
+        name: 'twitter',
+        url: 'https://twitter.com/',
+        min: 130,
+        max: 480
+    }, {
+        name: 'gmail',
+        url: 'https://gmail.com/',
+        min: 230,
+        max: 690
+    }, {
+        name: 'linkedin',
+        url: 'https://linkedin.com/',
+        min: 600,
+        max: 1500
+    }, {
+        name: 'facebook',
+        url: 'https://facebook.com/',
+        min: 380,
+        max: 1100
+    }]);
+    </script>
+</body>
+
+</html>
